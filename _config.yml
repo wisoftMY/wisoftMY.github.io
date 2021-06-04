@@ -7,7 +7,7 @@ google_analytics: # Tracking ID, e.g. "UA-000000-01"
 # Author
 author:
   name: MinYoung Park 
-  desc: 나태해지지 말자. 
+  desc:  
   email: minyoung@edu.hanbat.ac.kr
   selfie: assets/img/profile.jpeg
 
