@@ -3,20 +3,16 @@ layout: about
 ---
 
 # About Me
-There is no specific format here. You can fill out the form you want.  
-For example, you might want to write a brief introduction about your self, experience, interests, publications, and other information.  
-I wrote "about me", "career", and "interests" on this page as an example.  
 
 <br/>
 
 # Career
-* Second Company (2012/01 ~ )
-  * Web Application Firewall
-    * Developed TCP network acceleration module.
-    * Developde Application User Interface.
-* First Company (2011/01 ~ 2011/12)
-  * VPN Development Company
-  * Team Leader of VPN Development Div.
+* [Microservice 프로젝트](https://www.notion.so/wsminyoung/Microservice-a90dd575cff04f0c81ec4717762d353a) 
+  * 주요 기술 스택 
+    * Java, Spring Boot, Gradle, JPA, PostgreSQL, Netflix Zuul, Netfilx ribbon, Netfilx hystrix
+* [기업 프로젝트(화재 방지 스마트 밸브)](https://www.notion.so/wsminyoung/a7da5e4e073d4d18860b3f4785333b7d)
+  * 주요 기술 스택 
+    * TypeScript, NestJs, TypeORM, JWT, Axios, Express.js, Mosca, Docker
 
 <br/>
 

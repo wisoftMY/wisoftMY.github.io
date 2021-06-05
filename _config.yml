@@ -37,20 +37,7 @@ social:
   youtube:
   default_txt: "Follow On"
 
-# Protfolio Schema
---- 
-layout: Microservice 프로젝트
-title: https://www.notion.so/wsminyoung/Microservice-a90dd575cff04f0c81ec4717762d353a  
-info: 
-tech: 
-type:
----
-layout: 기업 프로젝트(화재 방지 스마트 밸브) 
-title: https://www.notion.so/wsminyoung/a7da5e4e073d4d18860b3f4785333b7d
-info: 
-tech: 
-type: 
----
+
 # Build settings
 markdown: kramdown
 
