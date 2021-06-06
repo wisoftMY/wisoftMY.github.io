@@ -4,27 +4,81 @@ layout: about
 
 # About Me
 
-안녕하세요. 백엔드 개발자가 되고 싶은 박민영입니다.<br/>
+안녕하세요. 백엔드 개발자가 되고 싶은 박민영입니다. Java와 Spring을 주로 사용하고 있으며 새로운 기술들을 접하며 학습하고 있습니다. 저는 프로젝트를 완성하는 것도 중요하다고 생각하지만, 유지보수 및 리팩토링 과정이 더욱 중요하다고 생각합니다.  그렇기 때문에 시스템에 대한 문서 관리와 메소드 이름, SOLID 원칙 등 생각하면서 작업하고 있습니다. 또한 구현에 목표가 아닌 사용한 기술에 대한 이해가 중요하다 생각이 들어 도큐먼트를 꼼꼼히 살펴보는 편입니다.<br/>
 
 # Project
 
-* [논문 프로젝트](https://www.notion.so/wsminyoung/cd338bb0940e4a56b7e236e7380e7cf5)
+* 논문 프로젝트 기간: 2020.10 ~ 2021.05
+
+  * 주제 요약
+
+    ![image-20210606151807666](/Users/park/Library/Application Support/typora-user-images/image-20210606151807666.png)
+
   * 주요 기술 스택
     * Java, Spring Boot, Gradle, JPA, PostgreSQL, MongoDB, Netflix Zuul, Netfilx Ribbon, Netfilx Hystrix, 
-  * 코드 링크
-    * https://github.com/my-microservice
-* [Microservice 프로젝트](https://www.notion.so/wsminyoung/Microservice-a90dd575cff04f0c81ec4717762d353a) 
+  * 프로젝트 코드
+    * [https://github.com/my-microservice](https://github.com/my-microservice)
+
+* Microservice 프로젝트 기간: 2019.03 ~ 2021.06
+  
+  * 주제 요약
+    * IoT 장치들이 증가하면서 시스템의 서비스 부하도 심해지고 있다.
+    * 문제점은 시스템의 확장을 하기 위해 많은 시간과 비용이 필요하다는 점이다.
+    * Microservice로 분리하고 EventSourcing 패턴과 CQRS를 적용함으로써 시스템의 부하를 분산시키고 유연한 확장성을 제공한다.
+  
   * 주요 기술 스택 
     * Java, Spring Boot, Gradle, JPA, PostgreSQL, Netflix Zuul, Netfilx Ribbon, Netfilx Hystrix, Docker
-* [기업 프로젝트(화재 방지 스마트 밸브)](https://www.notion.so/wsminyoung/a7da5e4e073d4d18860b3f4785333b7d)
+  * 느낀점
+    * 장기간의 프로젝트를 진행하면서 구현보다는 구현을 함으로써 기존의 기능들이 잘 동작하는지에 대한 테스트가 오래걸렸다. 때문에 테스트 코드에 대한 관심이 생겼고 테스트 코드를 작성하여 기존 기능들에 대해 테스트를 진행하였다.
+    * 마이크로서비스를 분리하면서 그에 따라 분리된 속성들에 대한 DTO를 만들어야 하는데 Getter/Setter나 builder패턴으로는 한계가 있어 ModelMapper를 도입하여 하나의 DTO를 구현하였다.
+  
+* 기업 프로젝트(화재 방지 스마트 밸브) 기간: 2019.03 ~ 2019.09
+
+  * 주제 요약
+    * 대형 식당의 솥을 이용해 음식을 만들경우 불의 화력이 쌔기 때문에 화재가 날 가능성이 높다.
+    * 솥의 온도의 변화를 측정하여 자동 및 원격으로 밸브를 제어할 수 있는 시스템을 구성하였다.
+
   * 주요 기술 스택 
-    * TypeScript, NestJs, TypeORM, JWT, Axios, Express.js, Mosca, Docker
-* [캡스톤 디자인 (태양판 고장 판별기)](https://www.notion.so/wsminyoung/099a8c9ac8504673bca0eb0c9f9ead98)
+    * TypeScript, NestJs, TypeORM, JWT, Axios, Express.js, Mosca
+  * 느낀점
+    * 코딩 스타일의 일관성을 맞추는것이 중요하다고 느꼈다. 왜냐하면 코드 스타일이 다르면 코드를 읽기 힘들기 때문이다. 그렇게 때문에 미리 정책을 정하고 환경설정으로 스타일을 픽스를 하고 난 후에 구현을 진행했다.
+    * Validation 및 에러 로그에 대한 중요성을 알았다. 또한 에러가 났을 시 어느지점에 대한 에러인지 알기 쉽게 로그를 구성해야 한다. 그래서 각 서비스별로 어떤 클래스에서 에러가 나는지 에러 로그를 구현했다.
+    * 백엔드 서버를 구현할 때 프론트 서버를 작업하는 팀원이 추가적인 속성을 요청을 자주함으로써 진행이 더뎌진 경험이 있다. 그래서 프론트 서버와 연동을 할 때 구현을 하기 전에 미리 API 설계를 같이 함으로써 어떠한 데이터를 전달할지에 대한 픽스를 했다.
+
+* 캡스톤 디자인(태양판 고장 판별기) 기간: 2018.02 ~ 2018.10
+  
+  * 주제 요약
+    * 태양판은 응집되어있어 태양판의 고장여부를 알기는 어렵다.
+    * 태양판의 전력상태를 측정하여 태양판의 고장여부를 알 수 있는 시스템 및 디바이스를 제작하였다.
+  
   * 주요 기술 스택
-    * Jetty, Jersey, PostgreSQL, Node.js  Express, Ajax, MyBatis, Gradle, Http API
-* [스페이스미디어컨텐츠(청년놀이터)](https://www.notion.so/wsminyoung/770a65bda1944ae0835552e9b62c83ee)
+    * Jetty, Jersey, PostgreSQL, MyBatis, Gradle, Http API
+  * 느낀점 
+    * 설계 문서를 작성하지 않아 시스템의 구성을 다시 이해하는데 어려움이 생겨서 설계의 중요성을 깨닫고 DB 스키마, UI 디자인 설계, API 문서 작성을 진행하였다.
+    * 새로운 기능을 추가시키고 그에 따른 문서의 최신화에 대한 중요성을 알았다.
+  
+* 스페이스미디어컨텐츠(청년놀이터) 기간: 2017.08 ~ 2017.12
+  
+  * 팀 구성
+    * 정보통신공학과 2명, 산업디자인과 1명
+  
+  * 주제 요약
+    * 술집이나, 카페 등 청년들이 돈을 지불을 해야 장소를 제공받는 곳만 있어 경제적 부담이 높아짐
+    * 아이들처럼 청년들이 부담없이 장소를 제공받고 놀 수 있는 놀이터를 제공
+    * 게시판 기능, 사회적 이슈 관련 찬반대 투표 기능, 사람의 목소리 주파수에 따라 전구의 색 바뀌는 기능 등 다양한 컨텐츠 제공
+  
   * 주요 기술 스택
     * Node.js, Javascrpit, Express.js, WebSoket, Passport, PBKDF2, MySQL
+    
+  * 느낀점
+  
+    * 전공이 다름으로 인해 일정을 맞추기 어려웠지만 서로 배려를 하면서 프로젝트를 진행하였다.
+  
+    * 산업디자인과에서 목업을 디자인해야 하는데 센서의 규격 사용방법을 모르는 문제가 있었다. 사용방법 등을 알려주면서 같이 목업을 진행하였다.
+  
+    * 설계 문서를 작성하지 않아 시스템의 구성을 다시 이해하는데 어려움이 생겼다. 설계 문서의 중요성을 알게되었다.
+  
+      
 
 <br/>
 
