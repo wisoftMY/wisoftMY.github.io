@@ -11,28 +11,32 @@ layout: about
 * 논문 프로젝트 기간: 2020.10 ~ 2021.05
 
   * 주제 요약
-
-    ![image-20210606151807666](/Users/park/Library/Application Support/typora-user-images/image-20210606151807666.png)
+    * [https://www.notion.so/wsminyoung/cd338bb0940e4a56b7e236e7380e7cf5](https://www.notion.so/wsminyoung/cd338bb0940e4a56b7e236e7380e7cf5)
 
   * 주요 기술 스택
     * Java, Spring Boot, Gradle, JPA, PostgreSQL, MongoDB, Netflix Zuul, Netfilx Ribbon, Netfilx Hystrix, 
+
   * 프로젝트 코드
     * [https://github.com/my-microservice](https://github.com/my-microservice)
 
 * Microservice 프로젝트 기간: 2019.03 ~ 2021.06
-  
+
   * 주제 요약
     * IoT 장치들이 증가하면서 시스템의 서비스 부하도 심해지고 있다.
     * 문제점은 시스템의 확장을 하기 위해 많은 시간과 비용이 필요하다는 점이다.
     * Microservice로 분리하고 EventSourcing 패턴과 CQRS를 적용함으로써 시스템의 부하를 분산시키고 유연한 확장성을 제공한다.
-  
+
   * 주요 기술 스택 
     * Java, Spring Boot, Gradle, JPA, PostgreSQL, Netflix Zuul, Netfilx Ribbon, Netfilx Hystrix, Docker
+
   * 느낀점
     * 장기간의 프로젝트를 진행하면서 구현보다는 구현을 함으로써 기존의 기능들이 잘 동작하는지에 대한 테스트가 오래걸렸다. 때문에 테스트 코드에 대한 관심이 생겼고 테스트 코드를 작성하여 기존 기능들에 대해 테스트를 진행하였다.
     * 마이크로서비스를 분리하면서 그에 따라 분리된 속성들에 대한 DTO를 만들어야 하는데 Getter/Setter나 builder패턴으로는 한계가 있어 ModelMapper를 도입하여 하나의 DTO를 구현하였다.
-  
+
 * 기업 프로젝트(화재 방지 스마트 밸브) 기간: 2019.03 ~ 2019.09
+
+  * 팀 구성
+    * 모바일융합공학과 5명 
 
   * 주제 요약
     * 대형 식당의 솥을 이용해 음식을 만들경우 불의 화력이 쌔기 때문에 화재가 날 가능성이 높다.
@@ -40,6 +44,7 @@ layout: about
 
   * 주요 기술 스택 
     * TypeScript, NestJs, TypeORM, JWT, Axios, Express.js, Mosca
+
   * 느낀점
     * 코딩 스타일의 일관성을 맞추는것이 중요하다고 느꼈다. 왜냐하면 코드 스타일이 다르면 코드를 읽기 힘들기 때문이다. 그렇게 때문에 미리 정책을 정하고 환경설정으로 스타일을 픽스를 하고 난 후에 구현을 진행했다.
     * Validation 및 에러 로그에 대한 중요성을 알았다. 또한 에러가 났을 시 어느지점에 대한 에러인지 알기 쉽게 로그를 구성해야 한다. 그래서 각 서비스별로 어떤 클래스에서 에러가 나는지 에러 로그를 구현했다.
@@ -47,12 +52,16 @@ layout: about
 
 * 캡스톤 디자인(태양판 고장 판별기) 기간: 2018.02 ~ 2018.10
   
+  * 팀 구성
+    * 정보통신공학과 2명 전기과 5명
+  
   * 주제 요약
     * 태양판은 응집되어있어 태양판의 고장여부를 알기는 어렵다.
     * 태양판의 전력상태를 측정하여 태양판의 고장여부를 알 수 있는 시스템 및 디바이스를 제작하였다.
-  
+
   * 주요 기술 스택
     * Jetty, Jersey, PostgreSQL, MyBatis, Gradle, Http API
+  
   * 느낀점 
     * 설계 문서를 작성하지 않아 시스템의 구성을 다시 이해하는데 어려움이 생겨서 설계의 중요성을 깨닫고 DB 스키마, UI 디자인 설계, API 문서 작성을 진행하였다.
     * 새로운 기능을 추가시키고 그에 따른 문서의 최신화에 대한 중요성을 알았다.
@@ -71,14 +80,8 @@ layout: about
     * Node.js, Javascrpit, Express.js, WebSoket, Passport, PBKDF2, MySQL
     
   * 느낀점
-  
     * 전공이 다름으로 인해 일정을 맞추기 어려웠지만 서로 배려를 하면서 프로젝트를 진행하였다.
-  
     * 산업디자인과에서 목업을 디자인해야 하는데 센서의 규격 사용방법을 모르는 문제가 있었다. 사용방법 등을 알려주면서 같이 목업을 진행하였다.
-  
     * 설계 문서를 작성하지 않아 시스템의 구성을 다시 이해하는데 어려움이 생겼다. 설계 문서의 중요성을 알게되었다.
   
       
-
-<br/>
-
