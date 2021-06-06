@@ -7,7 +7,7 @@ google_analytics: # Tracking ID, e.g. "UA-000000-01"
 # Author
 author:
   name: MinYoung Park 
-  desc:  
+  desc: Backend Developer.
   email: minyoung@edu.hanbat.ac.kr
   selfie: assets/img/profile.jpeg
 
@@ -23,7 +23,7 @@ social:
   google_plus:
   instagram:
   keybase:
-  linkedin: https://www.linkedin.com/in/kssim/ 
+  linkedin: 
   pinterest:
   reddit:
   soundcloud:
